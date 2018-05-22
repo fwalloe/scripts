@@ -11,6 +11,9 @@ Lets you grep for a string in every file in a folder, and ever file in its subfo
 ## synonymLookup.py 	
 Prints the synonyms for a word provided by the user
 
+## dictionaryLookup.py 	
+Prints the definitions for a word provided by the user
+
 ## isUp.sh 	
 Checks whether a website is up (HTTP response code 200) 
 
