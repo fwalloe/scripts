@@ -1,5 +1,11 @@
 #!/bin/python
 
+####
+##
+## archNews.py: gets news information from archlinux.org/news. Doesn't bother to parse the results.
+##
+####
+
 import urllib.request
 
 baseURL='https://www.archlinux.org/news/'

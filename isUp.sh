@@ -2,7 +2,7 @@
 
 ###
 #
-# Checks whether a given website is up (HTTP response code 200)
+# isUp.sh: checks whether a given website is up (HTTP response code 200)
 #
 # by Fredrik Walloe
 #

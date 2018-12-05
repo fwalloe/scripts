@@ -1,7 +1,12 @@
 #!/bin/bash
-#Copies file passed as $1 to Dropbox or to specific folder if $2 is used
-#Note that if a file with the same name exists, it will be overwritten!
-#usage with alias: toDropbox $1 $2
+
+####
+##
+## copyToDropbox.sh: simple helper script that copies a file or folder to either the Dropbox folder or a subdirectory.
+## Version: 1.0
+## Usage: $1 should be the file you want to move; supply $2 if you want to specify a subfolder.
+##
+####
 
 cp -r $1 ~/Dropbox/$2
 notify-send "Moved $1 to Dropbox$2"
