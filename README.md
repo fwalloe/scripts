@@ -1,21 +1,34 @@
-# A collection of scripts by Fredrik Walløe
+## A collection of scripts by Fredrik Walløe ##
 
-Most of these are simple helper scripts meant to serve as aliases. This is a place to dump scripts that don't warrant their own repositories.
+This repository contains 10 scripts that are summarized below.
 
-## updateArch.py
-Displays news from archlinux.org that the user should be aware of before proceeding with their update. 
+#  checkUpdates.sh #
+ detects and prints the number of packages that are out of date; meant to be used with Polybar, where the displayed message will change colour depending on whether any packages are out of date. 
 
-## grepAll.sh 	
-Lets you grep for a string in every file in a folder, and ever file in its subfolders. Will display the string  along with the file(s) it was found in. Useful if you remember a snippet of code or text, but don't remember which file it's in.
+#  archNews.py #
+ gets news information from archlinux.org/news. Doesn't bother to parse the results.
 
-## synonymLookup.py 	
-Prints the synonyms for a word provided by the user
+#  vpnStatus.sh #
+ checks whether there' a VPN tunnel is active. Meant as a simple way to display VPN status in Polybars
 
-## dictionaryLookup.py 	
-Prints the definitions for a word provided by the user
+#  updateArch.py #
+ displays news from archlinux.org/news/ that are relevant to your update; will display all news items since your last update and let you know whether the software mentioned in the news appears to be installed on your machine.
 
-## isUp.sh 	
-Checks whether a website is up (HTTP response code 200) 
+#  copyToDropbox.sh #
+ simple helper script that copies a file or folder to either the Dropbox folder or a subdirectory.
 
-## copyToDropbox.sh
-Moves a file or folder to Dropbox
+#  isUp.sh #
+ checks whether a given website is up (HTTP response code 200)
+
+#  audiobookToPages.py #
+ gives an estimate number of pages based on how many hours you've listened to an audiobook. 
+
+#  connectToWifi.sh #
+ either scans or connects to a wirless network using nmcli. 
+
+#  synonymLookup.py #
+ lets users find synonyms for the words they pass to the script as arguments
+
+#  createDocumentation.py #
+ automagically creates documentation for all files in the current folder by extracting this documentation line from all files. 
+
