@@ -1,6 +1,6 @@
 ## A collection of scripts by Fredrik Walløe ##
 
-This repository contains 11 scripts that are summarized below.
+This repository contains 13 scripts that are summarized below.
 
 #  checkUpdates.sh #
  detects and prints the number of packages that are out of date; meant to be used with Polybar, where the displayed message will change colour depending on whether any packages are out of date. 
@@ -17,11 +17,17 @@ This repository contains 11 scripts that are summarized below.
 #  copyToDropbox.sh #
  simple helper script that copies a file or folder to either the Dropbox folder or a subdirectory.
 
+#  dictionaryLookup.py #
+ a command-line dictonary that scrapes defintions from dictionary.com. 
+
 #  isUp.sh #
  checks whether a given website is up (HTTP response code 200)
 
 #  audiobookToPages.py #
  gives an estimate number of pages based on how many hours you've listened to an audiobook. 
+
+#  toggleTouchpad.sh #
+ toggles the touchpad on/off
 
 #  connectToWifi.sh #
  either scans or connects to a wirless network using nmcli. 
@@ -30,7 +36,7 @@ This repository contains 11 scripts that are summarized below.
  searches for a pattern in all files in the current directory. 
 
 #  synonymLookup.py #
- lets users find synonyms for the words they pass to the script as arguments
+ lets users find synonyms for the words they pass to the script as arguments; can fail if a word has multiple possible meanings. 
 
 #  createDocumentation.py #
  automagically creates documentation for all files in the current folder by extracting this documentation line from all files. 
