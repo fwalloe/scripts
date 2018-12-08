@@ -1,6 +1,6 @@
 ## A collection of scripts by Fredrik Walløe ##
 
-This repository contains 10 scripts that are summarized below.
+This repository contains 11 scripts that are summarized below.
 
 #  checkUpdates.sh #
  detects and prints the number of packages that are out of date; meant to be used with Polybar, where the displayed message will change colour depending on whether any packages are out of date. 
@@ -25,6 +25,9 @@ This repository contains 10 scripts that are summarized below.
 
 #  connectToWifi.sh #
  either scans or connects to a wirless network using nmcli. 
+
+#  findAll.sh #
+ searches for a pattern in all files in the current directory. 
 
 #  synonymLookup.py #
  lets users find synonyms for the words they pass to the script as arguments
